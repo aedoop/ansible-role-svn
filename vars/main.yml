@@ -1,2 +1,12 @@
 ---
 # vars file for svn
+
+svn_dirs:
+  Windows:
+    tmp: C:\tmp
+
+svn_packages:
+  1.8.15:
+    Windows:
+      file: svn.install.1.8.15.nupkg
+      pull: ftp://10.0.250.100/pub/svn/svn.install.1.8.15.nupkg

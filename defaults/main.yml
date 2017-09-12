@@ -1,2 +1,6 @@
 ---
 # defaults file for svn
+package_name: svn
+
+svn_version: 1.8.15
+svn_install_type: pull
