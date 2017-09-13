@@ -9,7 +9,7 @@
   win_get_url: url={{ pkg_info.pull }} dest={{ dir_info.tmp }}//{{ pkg_info.file }}
 
 - name: Install {{ package_name }} in {{ ansible_distribution }} by pull install
-  win_chocolatey: name=docker.install source={{ dir_info.tmp }} state=present
+  win_chocolatey: name=svn.install source={{ dir_info.tmp }} state=present
 
 # - name: Remove {{ package_name }} install package in {{ ansible_distribution }} by pull install
 #   win_file: path={{ dir_info.tmp }}//{{ pkg_info.file }} state=absent
